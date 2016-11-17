@@ -7,9 +7,8 @@ Pod::Spec.new do |s|
   s.homepage = 'http://www.gingerbeard.me'
   s.author   = { 'Alvise Susmel' => 'alvise@50pixels.com' }
 
-  s.source   = { :git => 'https://github.com/50pixels/FPPopover.git', :tag => '1.4.1' }
   s.platform = :ios
   s.source_files = '*.{h,m}'
-
+  s.ios.deployment_target  = '8.0'
   s.frameworks = 'QuartzCore', 'UIKit'
 end
